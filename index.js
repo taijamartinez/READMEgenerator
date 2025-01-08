@@ -12,21 +12,25 @@ const questions = [
         name: 'Description',
         message: 'Describe your project: '
     },
-    {   type: 'input',
+    {   type: 'editor',
         name: 'Installation',
         message: 'What are the installation instructions?'
     },
-    {   type: 'input',
+    {   type: 'editor',
         name: 'Usage',
         message: 'How do you use your project?'
     },
-    {   type: 'input',
+    {   type: 'editor',
         name: 'Contributing',
         message: 'How can others contribute?'
     },
-    {   type: 'input',
+    {   type: 'editor',
         name: 'Tests',
         message: 'What are the test instructions?'
+    },
+    {   type: 'editor',
+        name: 'Credit',
+        message: 'Who and/or what sites helped you?'
     },
     {
         type: 'list',
@@ -106,6 +110,9 @@ function generateREADME(answers) {
   
   ## Tests
   ${answers.Tests}
+
+  ## Credit
+  ${answers.Credit}
   
   ## Questions
   Reach me here for additional questions:
