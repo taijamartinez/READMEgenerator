@@ -53,7 +53,7 @@ If you would like to contribute to my project please follow these steps!
 ## Project Links
 Repository: https://github.com/taijamartinez/READMEgenerator.git
 
-Project Screen Recording: 
+Project Screen Recording: https://drive.google.com/file/d/1qwTv4GZm4e7xV3Bps4NudQ70XzP_awf5/view
 
 ## Questions
 Reach me here with additional questions:
